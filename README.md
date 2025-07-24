@@ -71,6 +71,9 @@ anarix-ai-agent/
 
 ---
 
+<img width="1803" height="782" alt="image" src="https://github.com/user-attachments/assets/2df5a9f9-e2b1-46a1-b600-2c9f6ce4737b" />
+
+
 ## 👩‍💻 Built By
 
 Created with love by **Manogna**  
