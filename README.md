@@ -1,11 +1,11 @@
 [README.md](https://github.com/user-attachments/files/21403444/README.md)
-# 🧠 Anarix.AI Agent
+# Anarix.AI Agent
 
 Anarix.AI is an intelligent e-commerce data agent that converts natural language questions into SQL queries and visual answers using Gemini API, FastAPI, SQLite, and Plotly.js.
 
 ---
 
-## 💡 What It Does
+## What It Does
 
 - Takes questions like:
   - “Top 5 products by sales”
@@ -14,12 +14,12 @@ Anarix.AI is an intelligent e-commerce data agent that converts natural language
 - Uses **Gemini 1.5 Flash** to generate SQL queries
 - Runs SQL on local **SQLite database**
 - Returns:
-  - Text answer with typing animation 💬
-  - Interactive chart using **Plotly.js** 📊
+  - Text answer with typing animation 
+  - Interactive chart using **Plotly.js** 
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 | Layer     | Tools Used                |
 |-----------|---------------------------|
@@ -31,7 +31,7 @@ Anarix.AI is an intelligent e-commerce data agent that converts natural language
 
 ---
 
-## 🧪 How to Run the Project
+## How to Run the Project
 
 1. Clone or download this repository
 
@@ -54,7 +54,7 @@ Anarix.AI is an intelligent e-commerce data agent that converts natural language
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 anarix-ai-agent/
