@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anarix.AI Agent</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <h1 class="title">Anarix.AI Agent</h1>
+      <p class="subtitle">Your intelligent assistant<br>for instant e-commerce insights.</p>
+      <p class="instruction"><em>Ask any business question related<br>to your sales or ad performance.</em></p>
+      <p class="try-these"><span>Try these:</span></p>
+      <ul class="examples">
+        <li onclick="fillQuestion('Top 5 products by sales?')">📦 Top 5 products by sales?</li>
+        <li onclick="fillQuestion('Compare ad spend vs impressions trend.')">📈 Compare ad spend vs impressions trend.</li>
+        <li onclick="fillQuestion('Average units sold per product.')">⚖️ Average units sold per product.</li>
+        <li onclick="fillQuestion('Which item had the highest ad spend?')">🔍 Which item had the highest ad spend?</li>
+      </ul>
+    </div>
+    <div class="right-panel">
+      <h2>Ask a question 👇</h2>
+      <div class="input-group">
+        <input type="text" id="questionInput" placeholder="Type your question here" />
+        <button onclick="submitQuestion()">Submit</button>
+      </div>
+      <div id="answerBox">
+        <strong>Answer:</strong>
+        <div id="answerContent"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
